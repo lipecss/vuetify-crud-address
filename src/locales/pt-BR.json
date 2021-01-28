@@ -1,0 +1,77 @@
+{
+  "alerts": {},
+  "views": {
+    "website": {
+      "homePage": {},
+      "aboutPage": {
+        "text": "Esse foi meu primeiro projeto desenvolvido com vuetify para de lidar com operações CRUD. Nele, é possível realizar operações de criar, editar e excluir os endereços pesquisados ​​na api externa (https://viacep.com.br/) e salva-los no localstorage."
+      }
+    },
+    "errors": {
+      "Error404Page": {
+        "message": "Página não encontrada"
+      }
+    }
+  },
+  "components": {
+    "fragments": {
+      "BaseAlerts": {
+        "messages": {
+          "success": "Endreço cadastrado com sucesso",
+          "warning": "CEP inválido, tente novamente",
+          "error": "Falha ao tentar prosseguir. Tente novamente!"
+        }
+      },
+      "BaseDataTable": {
+        "table": {
+          "postalcode": "CEP",
+          "address": "Logradouro",
+          "complement": "Complemento",
+          "number": "Número",
+          "city": "Cidade",
+          "state": "Estado",
+          "actions": "Ação",
+          "footer": {
+            "text": "Itens por Página"
+          }
+        },
+        "comfirm": {
+          "message": "Você deseja realmente deletar esse item?"
+        }
+      },
+      "BaseDialog": {
+        "button": "Novo Endereço",
+        "form": {
+          "title": "Cadastrar nono endereço",
+          "title2": "Editando endereço",
+          "postalcode": "CEP",
+          "address": "Logradouro",
+          "complement": "Complemento",
+          "number": "Número",
+          "city": "Cidade",
+          "state": "Estado"
+        },
+        "rules": {
+          "general": "Campo obrigatório"
+        }
+      }
+    },
+    "layout": {
+      "theNavBar": {
+        "language": {
+          "pt-BR": "Português",
+          "en": "Inglês"
+        },
+        "home": "Inicio",
+        "about": "Sobre",
+        "more": "Mais"
+      }
+    }
+  },
+  "metaInfo": {
+    "pages": {
+      "about": { "title": "Sobre" },
+      "home": { "title": "Início" }
+    }
+  }
+}

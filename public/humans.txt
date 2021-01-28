@@ -1,0 +1,17 @@
+/* TEAM */
+	Youtuber, Gamer, Noob e Desenvolvedor: Felipe Santos.
+	Site: felipesantos.vemlavaralouca.com.br
+	Location: São Paulo, Brasil.
+
+							
+/* THANKS */
+	Name: Mãe & Pai
+
+							
+/* SITE */
+	Last update: 2020/01/28
+	Language: Portugues
+	Doctype: HTML5
+	Web Languages: HTML5, CSS3
+	Components: Vue.js, etc
+	Tools: VSCode

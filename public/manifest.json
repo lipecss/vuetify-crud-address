@@ -1,0 +1,13 @@
+{
+  "lang": "pt-BR",
+  "name": "CRUD - Minha lista de Endereços",
+  "short_name": "CRUD Vuetify",
+  "description": "Um PWA utilizando vuejs + vuetify, nele é possivel salvar e editar seus endereços de uma forma rápida e simples.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#3298dc",
+  "scope": "./",
+  "theme_color": "#3298dc",
+  "prefer_related_applications": false,
+  "orientation": "portrait"
+}

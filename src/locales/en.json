@@ -1,0 +1,77 @@
+{
+  "alerts": {},
+  "views": {
+    "website": {
+      "homePage": {},
+      "aboutPage": {
+        "text": "This was my first project developed with vuetify to deal with CRUD operations. In it, it is possible to carry out operations to create, edit and delete the searched addresses in the external api (https://viacep.com.br/) and save them in localstorage."
+      }
+    },
+    "errors": {
+      "Error404Page": {
+        "message": "Page not Found"
+      }
+    }
+  },
+  "components": {
+    "fragments": {
+      "BaseAlerts": {
+        "messages": {
+          "success": "Address registered successfully",
+          "warning": "Invalid Postcode, try again",
+          "error": "Failed to try to proceed. Try again!"
+        }
+      },
+      "BaseDataTable": {
+        "table": {
+          "postalcode": "Postal Code",
+          "address": "Address",
+          "complement": "Complement",
+          "number": "Number",
+          "city": "City",
+          "state": "State",
+          "actions": "Action",
+          "footer": {
+            "text": "Rows per page"
+          }
+        },
+        "comfirm": {
+          "message": "Are you really want to delete this?"
+        }
+      },
+      "BaseDialog": {
+        "button": "New Address",
+        "form": {
+          "title": "Add a new address",
+          "title2": "Editing address",
+          "postalcode": "Postal Code",
+          "address": "Address",
+          "complement": "Complement",
+          "number": "Number",
+          "city": "City",
+          "state": "State"
+        },
+        "rules": {
+          "general": "Required field"
+        }
+      }
+    },
+    "layout": {
+      "theNavBar": {
+        "language": {
+          "pt-BR": "Portuguese",
+          "en": "English"
+        },
+        "home": "Home",
+        "about": "About",
+        "more": "More"
+      }
+    }
+  },
+  "metaInfo": {
+    "pages": {
+      "about": { "title": "About" },
+      "home": { "title": "Home" }
+    }
+  }
+}
